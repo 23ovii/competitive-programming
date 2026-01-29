@@ -1,3 +1,5 @@
 .vscode/
 
 *.exe
+
+leetcode_fix.h
