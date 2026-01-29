@@ -10,7 +10,7 @@ A curated archive of clean, well-documented solutions to algorithmic problems fr
 
 </p>
 <p align="center">
-  <img src="https://wakatime.com/badge/user/0ecf21c2-9d6b-43c6-920e-eef4300ba43c/project/8d07bc1f-a4ce-452d-b333-e6338ab690a4.svg" alt="WakaTime">
+  <img src="https://wakatime.com/badge/user/0ecf21c2-9d6b-43c6-920e-eef4300ba43c/project/77594e07-6b0b-4c00-8629-dac35d1d8511.svg" alt="WakaTime">
 </p>
 
 </div>
@@ -91,4 +91,5 @@ Solved with ❤️ by [23ovii](https://github.com/23ovii)
     <img src="https://img.shields.io/badge/PBInfo-23ovii-0088CC?style=for-the-badge&logo=codeforces&logoColor=white" alt="PBInfo Badge" />
   </a>
 </p>
+
 
