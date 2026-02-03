@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#include <fstream>
-
-using namespace std;
 
 void interclasare() {
     ifstream fin1("file1.txt");
