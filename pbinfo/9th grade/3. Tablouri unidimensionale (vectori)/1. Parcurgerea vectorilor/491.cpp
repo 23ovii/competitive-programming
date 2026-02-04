@@ -5,23 +5,27 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n, a[1001], min = 99999999, max = -99999999, imax, imin, sum = 0;
+    int n, a[1001], primul, ultimul, sum = 0;
+    bool exista = false;
     cin >> n;
-    for (int i = 1; i <= n; i++) cin >> a[i];
-    for (int i = 1; i <= n; i++) {
-        if (a[i] > max) {
-            max = a[i];
-            imax = i;
-        }
-        if (a[i] < min) {
-            min = a[i];
-            imin = i;
+    for (int i = 0; i < n; i++) cin >> a[i];
+    for (int i = 0; i < n; i++) {
+        if(a[i] % 2 == 0) {
+            primul = i;
+            exista = true;
+            break;
         }
     }
-    if (imax < imin) {
-        swap(imax, imin);
+    for (int i = n - 1; i >= 0 ; i--) {
+        if(a[i] % 2 == 0) {
+            ultimul = i;
+            break;
+        }
     }
-    for(int i = imin; i <= imax; i++) sum += a[i];
+    if (!exista) cout << "NU EXISTA";
+    else {
+    for (int i = primul; i <= ultimul; i++) sum += a[i];
     cout << sum;
+    }
     return 0;
 }
