@@ -15,7 +15,7 @@ int main() {
     int n, a[1001];
     cin >> n;
     for (int i = 0; i < n; i++) cin >> a[i];
-    for (int i = n - 1; i > 0; i--) {
+    for (int i = 0; i < n; i++) {
         if (prim(a[i])) {
             a[i] = 0;
         }
