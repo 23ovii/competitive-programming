@@ -8,10 +8,10 @@ int main() {
     int n, a[501], count = 0;
     cin >> n;
     for (int i = 1; i <= n; i++) cin >> a[i];
-    int i = 1, j = n;
-    while (i < j) {
-        if (a[i] % 100 / 10 == a[j] % 100 / 10) count++;
-        i++; j--;
+    for (int i = 1; i <= n - 1; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            if (a[i] % 100 / 10 == a[j] % 100 / 10) count++;
+        }
     }
     cout << count;
     return 0;
