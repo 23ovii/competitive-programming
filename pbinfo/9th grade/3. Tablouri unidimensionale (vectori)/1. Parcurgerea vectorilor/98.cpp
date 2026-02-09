@@ -9,13 +9,13 @@ int main() {
     ofstream fout("maxim4.out");
 
     int n, a[101], maxim = -9999, nrmax = 0;
-    cin >> n;
+    fin >> n;
     for (int i = 0; i < n; i++) {
-        cin >> a[i];
+        fin >> a[i];
         if (a[i] > maxim) maxim = a[i];
     }
     for (int i = 0; i < n; i++) {
         if (a[i] == maxim) nrmax++;
-    } cout << maxim << " " << nrmax;
+    } fout << maxim << " " << nrmax;
     return 0;
 }
