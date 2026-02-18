@@ -7,6 +7,6 @@ int main() {
 
     int n;
     cin >> n;
-    cout << 180 - n << "\n";
+    cout << (n * n) * 6 << " " << n * n * n << "\n";
     return 0;
 }
