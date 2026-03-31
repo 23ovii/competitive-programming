@@ -1,5 +1,7 @@
 .vscode/
 
 *.exe
+*.in
+*.out
 
 leetcode_fix.h
