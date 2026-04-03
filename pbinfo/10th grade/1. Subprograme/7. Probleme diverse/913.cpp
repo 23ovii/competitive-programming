@@ -38,7 +38,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    int n, a[101];
+    int n, a[1000];
     citire(n, a);
     inloc(n, a);
     afisare(n, a);
