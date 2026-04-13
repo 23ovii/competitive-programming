@@ -8,6 +8,6 @@ int main() {
     int n;
     cin >> n;
     int temp = n % 10 * 10 + n / 10;
-    cout << temp;
+    cout << temp * temp;
     return 0;
 }
