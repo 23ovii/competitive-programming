@@ -5,12 +5,12 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n;
-    cin >> n;
-    if (n % 2 == 0) {
-        cout << n << " este par";
+    int n, m;
+    cin >> n >> m;
+    if (n > m) {
+        cout << n;
     } else {
-        cout << n << " este impar";
+        cout << m;
     }
     return 0;
 }
