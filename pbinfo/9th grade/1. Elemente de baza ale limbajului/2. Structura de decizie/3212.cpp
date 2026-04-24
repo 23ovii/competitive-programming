@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int S, d, r, m;
+    cin >> S >> d >> r >> m;
+    if (S >= d) {
+        cout << "drona";
+    } else if (S >= r) {
+        cout << "robot";
+    } else if (S >= m) {
+        cout << "masina";
+    } else {
+        cout << "nimic";
+    }
+    return 0;
+}
