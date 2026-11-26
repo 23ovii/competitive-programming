@@ -15,12 +15,12 @@ int main() {
     fin.get();
     for (int i = 0; i < n; i++) {
         fin >> s;
-        if (s == "re") suma += 1;
-        if (s == "mi") != 0) suma += 2;
-        if (s == "fa") != 0) suma += 3;
-        if (s == "sol") != 0) suma += 4;
-        if (s == "la") suma += 5;
-        if (s == "si") suma += 6;
+        if (strstr(s, "re") != 0) suma += 1;
+        if (strstr(s, "mi") != 0) suma += 2;
+        if (strstr(s, "fa") != 0) suma += 3;
+        if (strstr(s, "sol") != 0) suma += 4;
+        if (strstr(s, "la") != 0) suma += 5;
+        if (strstr(s, "si") != 0) suma += 6;
         if (strstr(s, "do2") != 0) suma += 7;
     }
     int temp = suma % 8;
